@@ -1,0 +1,26 @@
+.esas{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+.loginBtn2{
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 17px;
+    margin-left: 5px;
+}
+.loginBtn{
+    height: 35px;
+    width: 160px;
+    border-radius: 5px;
+    border: none;
+}
+.gap{
+    margin-right: 200px;
+}
+.gap2{
+    margin-right: 255px;
+}

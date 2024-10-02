@@ -1,0 +1,53 @@
+.loginBtn{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+.registerBtn{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+.loginBtn2{
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.pad{
+    margin-right: 265px;
+}
+.pad2{
+    margin-right: 245px;
+}
+.pad3{
+    margin-right: 205px;
+}
+.pad4{
+    margin-right: 260px;
+}
+input{
+    width: 300px;
+}
+body{
+    width: 100vh;
+}
+.container{
+    margin-right: 100px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+  }

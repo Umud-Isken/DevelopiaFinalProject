@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+
+    <div class="container m-5">
+      <br>
+      <br>
+        <div class="row d-flex align-items-center justify-content-center">
+          <hr style="width: 300px;">    
+        </div>
+        <div class="row2 d-flex align-items-center justify-content-center">
+          <button class="loginBtn bg-warning ">Esas Sehife</button>
+        </div>
+        <div class="row3 d-flex align-items-center justify-content-center">
+          <hr style="width: 300px;">    
+        </div>
+        <h2 class="d-flex align-items-center justify-content-center">Hesab Yaratmaq</h2>
+        <div class="row4 d-flex align-items-center justify-content-center">
+          <hr style="width: 300px;">    
+        </div>
+        <form class="was-validated">
+          <div class="mb-3">
+            <label for="validationTextarea" class="form-label pad">Ad:</label>
+            <input style="width: 300px; height:37px; margin-left:90px;" class="form-control d-flex align-items-center justify-content-center" id="nameInput" type="text"  required></input>
+            <div class="invalid-feedback">
+              <p>Bos goymayin, min 2 max 30 simvol olmalidir</p>
+            </div>
+          </div>
+
+       
+          <div class="mb-3">
+            <label for="validationTextarea" class="form-label pad2">Telefon:</label>
+            <input style="width: 300px; height:37px; margin-left:90px;" class="form-control d-flex align-items-center justify-content-center" id="phoneInput" type="text"  required></input>
+            <div class="invalid-feedback">
+              <p>Bos goymayin, min 2 max 30 simvol olmalidir</p>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="validationTextarea" class="form-label pad3">Istifadeci Adi:</label>
+            <input style="width: 300px; height:37px; margin-left:90px;" class="form-control d-flex align-items-center justify-content-center" id="usernameInput" type="text" required></input>
+            <div class="invalid-feedback">
+              <p>Bos goymayin, min 2 max 30 simvol olmalidir</p>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="validationTextarea" class="form-label pad4">Sifre:</label>
+            <input style="width: 300px; height:37px; margin-left:90px;" class="form-control d-flex align-items-center justify-content-center" id="passwordInput" type="password"  required></input>
+            <div class="invalid-feedback">
+              <p>Bos goymayin, min 2 max 30 simvol olmalidir</p>
+            </div>
+          </div>
+        <br>
+        <div class="button  d-flex align-items-center justify-content-center">
+          <button class="registerBtn bg-success ">Hesab Yarat</button>
+        </div>
+        <div class="row5 d-flex align-items-center justify-content-center">
+          <hr style="width: 300px;">    
+        </div>
+        <div class="secind-container  d-flex align-items-center justify-content-center">
+          <p>Artiq movcud hesabin var?</p>
+          <button onclick="document.location.href='../loginPage/index.html' " class="loginBtn2 bg-primary">Hesaba daxil ol</button>
+        </div>
+    </div>
+    
+
+   
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
